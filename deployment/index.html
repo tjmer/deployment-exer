@@ -4,14 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta discription="Cupcake website">
     <link rel="stylesheet" type="text/css" href="/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Cupcakes</title>
 </head>
 <body>
     <header>
-        <img src="https://www.telegraph.co.uk/content/dam/recipes/2020/09/18/TELEMMGLPICT000239100498_trans_NvBQzQNjv4BqWnmSLIjXTaf6ms2FoKRZ0kJZRMPeuBcwbiKE2OL2hn4.jpeg?imwidth=1400" alt="Cupcakes">
-        <h1>Testing 123</h1>
+        <h1 id ="pageHead">Heavenly Cupcakes</h1>
     </header>
+    <section id = "cart">
+        <p id = "items">Cart: <span id="numbers">0</span></p>
+        <ul id="itemNames"></ul>
+    </section>
+    <section id = "cake">
+        <section class ="row">
+            <div class = "options">
+                <h2>The yum-yums</h2>
+                <img class= "pics" id = "yumYumpic" src="https://thedomesticrebel.com/wp-content/uploads/2020/05/DSC_0453A.jpg"/>
+                <button class= "add" id = "yumm1">Want one</button>
+            </div>
+            <div class = "options">
+                <h2>Rosie</h2>
+                <img class = "pics" src="https://aclassictwist.com/wp-content/uploads/2020/03/Boy-Birthday-Cupcakes-3.jpg"/>
+                <button class="add" id = "yumm2">Want one</button>
+            </div>
+            <div class="options">
+                <h2>The Mixer</h2>
+                <img class = "pics" src="https://thumbs.dreamstime.com/b/clip-art-cartoon-cupcake-set-colorful-cupcakes-clipart-cartoons-chocolate-topping-sprinkles-cream-sugar-icing-116748672.jpg"/>
+                <button class = "add" id = "yumm3">Want one</button>
+            </div>
+        </section>
+        <section class ="row">
+            <div class="options">
+                <h2>Teeth and yummy</h2>
+                <img class = "pics" src=https://thumbs.dreamstime.com/b/super-villains-imagined-as-delicious-cupcakes-halloween-halloween-recipe-evil-cupcake-will-give-you-mouth-watering-223381046.jpg"/>
+                <button class = "add" id = "yumm4">Want one</button>
+            </div>
+            <div class="options">
+                <h2>Light as air</h2>
+                <img class = "pics" src="https://www.yourcupofcake.com/wp-content/uploads/2014/03/Cloud-Cupcakes.jpg"/>
+                <button class = "add" id = "yumm6">Want one</button>
+            </div>
+            <div class="options">
+                <h2>Cherry on top</h2>
+                <img class = "pics" src="https://t4.ftcdn.net/jpg/02/43/67/47/240_F_243674768_cB7VbSbMB8pUd6HHo2X3KgzOcQOvKgjm.jpg"/>
+                <button class = "add" id = "yumm7">Want one</button>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section id="someStuff">
+            <p class="stuff">Favorites</p>
+            <br>
+            <p class="stuff">Career</p>
+            <br>
+            <p class="stuff">Suggestions</p>
+        </section>
+    </footer>
     <script src="/js"></script>
 </body>
 </html>
