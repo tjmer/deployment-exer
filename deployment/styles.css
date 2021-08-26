@@ -1,3 +1,99 @@
-h1 {
-    color: aqua;
+* {
+    margin: 0;
+}
+
+body {
+    background-color: steelblue;
+}
+
+#pageHead {
+    color: pink;
+    text-shadow: 2px 2px 6px black, 3px 3px 5px blue;
+    transform: rotate(20deg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 200px;
+    background-image: url(https://www.telegraph.co.uk/content/dam/recipes/2020/09/18/TELEMMGLPICT000239100498_trans_NvBQzQNjv4BqWnmSLIjXTaf6ms2FoKRZ0kJZRMPeuBcwbiKE2OL2hn4.jpeg?imwidth=1400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+
+.pics {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+.add {
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: sandybrown;
+}
+
+.add:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: pink;
+    text-shadow: 2px 2px 6px black, 3px 3px 5px blue;
+    transform: rotate(10deg);
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    position: fixed;
+    
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.stuff {
+    color: white;
+    margin-left: 20px;
+    text-shadow: 4px 4px 8px red;
+}
+
+.stuff:hover {
+    cursor: pointer;
 }
