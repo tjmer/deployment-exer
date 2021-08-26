@@ -12,7 +12,11 @@
         <img src="https://www.telegraph.co.uk/content/dam/recipes/2020/09/18/TELEMMGLPICT000239100498_trans_NvBQzQNjv4BqWnmSLIjXTaf6ms2FoKRZ0kJZRMPeuBcwbiKE2OL2hn4.jpeg?imwidth=1400" alt="Cupcakes">
         <h1>Testing 123</h1>
     </header>
-
+    <script>
+        app.get("/", function(req, res) {
+    res.sendFile(path.join("../public/styles.css"))
+})
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
