@@ -1,0 +1,6 @@
+const yumBtn = document.querySelector('#yumm1')
+const rosieBtn = document.querySelector('#yumm2')
+const theMixerBtn = document.querySelector('#yumm3')
+const teethAndYummyBtn = document.querySelector('#yumm4')
+const lightAsAirBtn = document.querySelector('#yumm5')
+const cherryOnTopBtn = document.querySelector('#yumm6')
